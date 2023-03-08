@@ -1,0 +1,12 @@
+name: BadApple
+version: '${project.version}'
+main: me.darwj.badapple.BadApple
+api-version: 1.19
+authors: [ darwj ]
+description: Plays Bad Apple using JCodec.
+website: https://www.github.com/fishydarwin
+commands:
+  badapple:
+    description: Plays Bad Apple.
+    permission: badapple.commands.badapple
+    usage: /badapple
